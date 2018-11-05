@@ -19,5 +19,12 @@ public class EasyMoney extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void uglyBitch(View v) {
+
+        Intent asd = new Intent (EasyMoney.this, UglyBetty.class);
+        startActivity(asd);
+
+    }
+
 
 }

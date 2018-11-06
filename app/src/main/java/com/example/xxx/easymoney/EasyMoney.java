@@ -14,14 +14,14 @@ public class EasyMoney extends AppCompatActivity {
     }
 
 
-    public void jackWelcome(View view){
+    public void jackWelcome(View view) {
         Intent intent = new Intent(EasyMoney.this, HandsomeJack.class);
         startActivity(intent);
     }
 
     public void uglyBitch(View v) {
 
-        Intent asd = new Intent (EasyMoney.this, UglyBetty.class);
+        Intent asd = new Intent(EasyMoney.this, UglyBetty.class);
         startActivity(asd);
 
     }
